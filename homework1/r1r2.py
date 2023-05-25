@@ -4,6 +4,7 @@ import plotly.express as px
 # Загрузка DataFrame
 df = pd.read_csv('spotify-streaming-top-50-usa.csv')
 
+
 # Построение гистограммы
 fig = px.histogram(df, x='song')
 fig.show()
